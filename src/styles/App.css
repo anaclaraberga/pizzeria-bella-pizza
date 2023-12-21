@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-white: #fff;
     --color-dark-header: #2B2B2B;
     --color-dark: #222222;
@@ -6,23 +6,23 @@
     --color-red: #D50407;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-dark);
 }
 
-.header, .navigation_header{
+.header, .navigation_header {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.header{
+.header {
     background-color: var(--color-dark-header);
     box-shadow: 1px 1px 3px #1a1a1a;
     height: 80px;
@@ -30,26 +30,34 @@ body{
     padding: 0 10%;
 }
 
-.navigation_header{
+.navigation_header {
     gap: 3em;
 }
 
-.navigation_header a{
+.navigation_header a {
     text-decoration: none;
     font-weight: 600;
 }
 
-.navigation_header a:hover{
+.navigation_header a:hover {
     text-decoration: none;
     color: var(--color-gray-header);
     font-weight: 600;
 }
 
-.active{
+.active {
     color: var(--color-white);
     text-decoration: none;
 }
 
-.montesuapizza{
+.montesuapizza {
+    color: var(--color-gray-header);
+}
+
+.cardapio {
+    color: var(--color-gray-header);
+}
+
+.sobrenos {
     color: var(--color-gray-header);
 }
