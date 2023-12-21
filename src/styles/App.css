@@ -35,7 +35,6 @@ body{
 }
 
 .navigation_header a{
-    color: var(--color-gray-header);
     text-decoration: none;
     font-weight: 600;
 }
@@ -49,4 +48,8 @@ body{
 .active{
     color: var(--color-white);
     text-decoration: none;
+}
+
+.montesuapizza{
+    color: var(--color-gray-header);
 }
