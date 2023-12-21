@@ -2,7 +2,8 @@
     --color-white: #fff;
     --color-dark-header: #2B2B2B;
     --color-dark: #222222;
-
+    --color-gray-header: #777777;
+    --color-red: #D50407;
 }
 
 *{
@@ -15,8 +16,37 @@ body{
     background-color: var(--color-dark);
 }
 
-.header{
+.header, .navigation_header{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.header{
+    background-color: var(--color-dark-header);
+    box-shadow: 1px 1px 3px #1a1a1a;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.navigation_header{
+    gap: 3em;
+}
+
+.navigation_header a{
+    color: var(--color-gray-header);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navigation_header a:hover{
+    text-decoration: none;
+    color: var(--color-gray-header);
+    font-weight: 600;
+}
+
+.active{
+    color: var(--color-white);
+    text-decoration: none;
 }
