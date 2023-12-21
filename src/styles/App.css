@@ -1,0 +1,22 @@
+:root{
+    --color-white: #fff;
+    --color-dark-header: #2B2B2B;
+    --color-dark: #222222;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-dark);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
