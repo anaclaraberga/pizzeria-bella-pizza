@@ -5,7 +5,7 @@ function Home() {
     return (
         <>
             <div class="background">
-                <img src={Background} className="background" alt="background"/>
+                <img src={Background} className="image" alt="image"/>
             </div>
             <h1>hi</h1>
         </>
